@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Piotr Wojciechowski</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sidenav.css">
+</head>
+<body>
+    <header class="framed">
+        <span>Piotr Wojciechowski</span>
+        <img src="images/menu.png" id="menu" onclick="toggleMenu(true)">
+    </header>
+    <main>
+        <!--about me-->
+        <div id="about me" class="infoContainer">
+            <h1>o mnie</h1>
+            <span>Nazywam się Piotr Wojciechowski, urodziłem się w 2006 roku i skończyłem naukę w technikum nr. 9 w łodzi na profilu technik informatyk w maju 2026. Interesuję się grami, w szczególności survival oraz co-op, słuchaniem muzyki oraz tworzeniem gier.</span>
+        </div>
+
+        <!--skills-->
+        <div id="skills" class="infoContainer">
+            <h1>moje umiejętności</h1>
+
+            <div id="cpp" class="MySkills framed">
+                <h3>C++</h3>
+            </div>
+            
+            <div id="ubuntu" class="MySkills framed">
+                <h3>linux ubuntu</h3>
+            </div>
+
+            <div id="winSrv" class="MySkills framed">
+                <h3>windows server</h3>
+            </div>
+
+            <div id="html" class="MySkills framed">
+                <h3>HTML</h3>
+            </div>
+
+            <div id="css" class="MySkills framed">
+                <h3>CSS</h3>
+            </div>
+
+            <div id="js" class="MySkills framed">
+                <h3>JavaScript</h3>
+            </div>
+
+            <div id="sql" class="MySkills framed">
+                <h3>sql</h3>
+            </div>
+        </div>
+
+        <!--tools-->
+        <div id="tools" class="infoContainer">
+            <h1>narzędzia</h1>
+
+            <div id="ue5" class="MyTools framed">
+                <h3>unreal engine 5</h3>
+            </div>
+
+            <div id="vsCode" class="MyTools framed">
+                <h3>visual studio code</h3>
+            </div>
+
+            <div id="vsDev" class="MyTools framed">
+                <h3>visual studio</h3>    
+            </div>
+
+            <div id="VB" class="MyTools framed">
+                <h3>virtual box</h3>
+            </div>
+
+            <div id="vmWare" class="MyTools framed">
+                <h3>VM Ware</h3>
+            </div>
+            <div id="gimp" class="MyTools framed">
+                <h3>gimp</h3>
+            </div>
+
+            <div id="xampp" class="MyTools framed">
+                <h3>xampp</h3>
+            </div>
+
+            <div id="ssms" class="MyTools framed">
+                <h3>Sql Server Management Studio</h3>
+            </div>
+        </div>
+
+        <!--courses-->
+        <div id="courses" class="infoContainer">
+            <h1>szkolenia</h1>
+
+            <div id="cybersecurity" class="MyCourses framed">
+                <h3>cyberbezpieczeństwo</h3>
+            </div>
+
+            <div id="WHS" class="MyCourses framed">
+                <h3>BHP</h3>
+            </div>
+
+            <div id="automation" class="MyCourses framed">
+                <h3>automatyzacja z UiPath</h3>
+            </div>
+
+            <div id="python" class="MyCourses framed">
+                <h3>python fundamentals</h3>
+            </div>
+
+            <div id="time" class="MyCourses framed">
+                <h3>zarządzanie czasem</h3>
+            </div>
+
+            <div id="pm" class="MyCourses framed">
+                <h3>zarządzanie projektami</h3>
+            </div>
+
+            <div id="assertive" class="MyCourses framed">
+                <h3>asertywna komunikacja</h3>
+            </div>
+
+            <div id="virtualization" class="MyCourses framed">
+                <h3>virtualization fundamentals</h3>
+            </div>
+        </div>
+
+        <!--projects-->
+        <div id="projects" class="infoContainer">
+            <h1>projekty</h1>
+
+            <div id="ItShop" class="MyProjects framed HTMLProject Completed">
+                <h3>sklep IT</h3>
+            </div>
+
+            <div id="MuseumSite" class="MyProjects framed HTMLProject Completed">
+                <h3>Strona muzeum</h3>
+            </div>
+
+            <div id="Portfolio" class="MyProjects framed HTMLProject Ongoing">
+                <h3>Portfolio (ta strona)</h3>
+            </div>
+
+            <div id="SiteManagement" class="MyProjects framed HTMLProject Completed">
+                <h3>Poradnik do zarządzania stronami</h3>
+            </div>
+
+            <div id="ShopManager" class="MyProjects framed CPPProject Ongoing">
+                <h3>shop manager</h3>
+            </div>
+
+            <div id="MuseumGame" class="MyProjects framed CPPProject Ongoing">
+                <h3>Interaktywne muzeum</h3>
+            </div>
+        </div>
+
+        <!--experience-->
+        <div id="experience" class="infoContainer">
+            <h1>doświadczenie</h1>
+            
+            <div id="fujitsu" class="MyExperience framed">
+                <h3>Praktyki zawodowe w firmie Fujitsu</h3>
+            </div>
+
+            <div id="komputronik" class="MyExperience framed">
+                <h3>Praktyki zawodowe w firmie Komputronik</h3>
+            </div>
+        </div>
+
+        <!--contact me-->
+        <div id="contactMe" class="infoContainer">
+            <h1>kontakt</h1>
+            <a href="https://github.com/PanPioter1" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="github image" class="logo">
+                <h4>PanPioter1</h4>
+            </a>
+            <a href="mailto:piotr.wojciechowski.work@outlook.com">
+                <img src="images/mail.png" alt="mail image" class="logo">
+                <h4>piotr.wojciechowski.work@outlook.com</h4>
+            </a>
+            <div>
+                <img src="https://www.freepnglogos.com/uploads/discord-logo-png/concours-discord-cartes-voeux-fortnite-france-6.png" alt="discord logo" class="logo">
+                <h4>pan_pioter</h4>
+        </div>
+    </main>
+
+    <!--sideNav-->
+    <div id="sideNav">
+        <a href="javascript:void(0)" id="closebtn" onclick="closeMenu(true)">&times;</a>
+        <a href="#about me">O mnie</a>
+        <a href="#skills">Moje umiejętności</a>
+        <a href="#tools">Narzędzia</a>
+        <a href="#courses">Szkolenia</a>
+        <a href="#projects">Projekty</a>
+        <a href="#experience">Doświadczenie</a>
+        <a href="#contactMe">Kontakt</a>
+        <a href="index.html">Język</a>
+    </div>
+
+    <div id="overlay">
+        <div id="Info" class="framed"></div>
+    </div>
+    <footer class="framed">©2025 Piotr Wojciechowski. All rights reserved</footer>
+    <script src="menu.js"></script>
+    <script src="ShowInfo.js"></script>
+</body>
+</html>

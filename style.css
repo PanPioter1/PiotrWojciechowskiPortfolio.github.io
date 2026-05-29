@@ -1,0 +1,185 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: rgb(9, 13, 44);
+    align-items: center;
+    min-height: 90vh;
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.framed
+{
+    background-color: rgba(1, 1, 129, 0.842);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    min-height: 50px;
+    min-width: 98%;
+}
+
+main
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.infoContainer
+{
+    font-family: system-ui,sans-serif;
+    text-align: center;
+}
+
+.infoContainer h1
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Completed
+{
+    border-color: green;
+}
+
+.MyTools, .MySkills, .MyCourses, .MyProjects, .MyExperience
+{
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+
+.MyProjects ,.MyExperience, .FramedLinkBox
+{
+    cursor: pointer;
+}
+
+.MyProjects:hover ,.MyExperience:hover
+{
+    width: 105%;
+    height: 105%;
+}
+
+#tools, #skills, #courses ,#projects, #experience
+{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(220px, 500px));
+    justify-content: center;
+    justify-items: center;
+    gap: 24px;
+    padding: 10px 0;
+    align-items: start;
+}
+
+#tools h1, #skills h1, #courses h1, #projects h1, #experience h1
+{
+    grid-column: 1 / -1;
+    width: 100%;
+    text-align: center;
+}
+
+footer
+{
+    text-align: center;
+    min-height: 50px;
+    margin-top: auto;
+    min-width: 98%;
+}
+
+#overlay
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#Info
+{
+    background-color: rgba(0, 0, 71, 0.95);
+    position: fixed;
+    width: 30%;
+    height: 50%;
+    left: 35%;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FramedLinkBox
+{
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.FramedLinkBox:hover
+{
+    width: 220px;
+    height: 60px;
+}
+
+#contactMe {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo
+{
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+
+#contactMe > h1 {
+    flex-basis: 100%;
+    text-align: center;
+}
